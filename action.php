@@ -1,12 +1,13 @@
 
         <?php
+
         if(isset($_POST)){
             //var_dump($_POST);
-            echo "Фамилия: \n". ($_POST['Surname']). '<br>';
-            echo "Имя: \n". ($_POST['Name']). '<br>';
-            echo "Отчество: \n". ($_POST['Patronymic']). '<br>';
-            echo "Дата рождения: \n". ($_POST['Birthdate']). '<br>';
-            echo "Страна: \n". ($_POST['Country']). '<br>';
+            echo "Фамилия: ". ($_POST['Surname']). '<br>';
+            echo "Имя: ". ($_POST['Name']). '<br>';
+            echo "Отчество: ". ($_POST['Patronymic']). '<br>';
+            echo "Дата рождения: ". ($_POST['Birthdate']). '<br>';
+            echo "Страна: ". ($_POST['Country']). '<br>';
         }
         
         ?>
