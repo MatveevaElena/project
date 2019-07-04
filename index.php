@@ -1,6 +1,6 @@
 
-   
-<form action = "action.php" method="post">                     
+<link rel="stylesheet" type="text/css" href="/../css/main.css">  
+<form action = "action.php" method="post">    
     <label for="Surname">Фамилия:</label>
        <input id="Surname" type ="text" class="fam" name="Surname" size="25" autocomplete="off">
     <label for="Name" >Имя:</label>
@@ -19,52 +19,3 @@
     <input type="submit" class="cursor" value="Отправить">
 </form>
 
-<style>
-.fam {/*стиль для фамилии*/
-    padding:5px;
-    border-radius: 5px;
-    width : 100%;
-
-    display: block;
-}
-.nam{ /*cтиль для имени*/
-    padding: 5px;
-    border-radius: 5px;
-    width: 45%;
-    margin:3px;
-}
-form{
-    border-radius: 5px;
-    background-color:#9ACD32;
-    padding: 5px;
-    border-style: hidden;
-}
-.otch{
-    padding: 5px;
-    border-radius: 5px;
-    width: 46%;
-}
-.bdat{
-    padding: 5px;
-    display: block;
-    padding: 5px;
-    border-radius: 5px;
-    width: 655px;
-    
-}
-.cursor{ /*стиль для кнопки "отправить"*/
-    cursor: pointer;
-    width: 250px;
-    height:100px;
-    border-radius: 15px;
-    background-color: #FFD700;/*золотой цвет*/
-    margin-left :65%;
-}
-input[type=submit]:hover { /*hover - определяет стиль элемента при наведении на него курсора мыши*/
-    background-color: #B22222;
-    }
-    
-    option [value="Россия" ] :hover { /*hover - определяет стиль элемента при наведении на него курсора мыши*/
-    background-color: #B22222;
-    }
-</style>
