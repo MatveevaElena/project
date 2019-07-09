@@ -42,20 +42,22 @@
         <label for="Patronymic">Отчество:</label>
         <input type="text" class="form-control bg-warning" name="Patronymic" autocomplete="off">
       </div>
+      <div class="form-group col-md-6">
+        <label for="Birthdate">Дата рождения:</label>
+        <input type="date" class="form-control bg-warning" name="Birthdate">
+      </div>
     </div>
-    <div class="form-group col-md-6">
-      <label for="Birthdate">Дата рождения:</label>
-      <input type="date" class="form-control bg-warning" name="Birthdate">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="Country">Страна:</label>
-      <select class="form-control bg-warning" name="Country">
-        <option selected>Россия</option>
-        <option>Испания</option>
-        <option>Германия</option>
-        <option>Япония</option>
-        <option>Мексика</option>
-      </select>
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="Country">Страна:</label>
+        <select class="form-control bg-warning " name="Country">
+          <option selected>Россия</option>
+          <option>Испания</option>
+          <option>Германия</option>
+          <option>Япония</option>
+          <option>Мексика</option>
+        </select>
+      </div>
     </div>
     <button type="submit" class="btn btn-warning btn-lg btn-block">Отправить</button>
   </form>
